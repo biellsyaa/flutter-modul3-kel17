@@ -32,7 +32,6 @@ class _ProfilePageState extends State<ProfilePage> {
       body: Stack(
         alignment: Alignment.center,
         children: [
-          // Background anime
           Positioned.fill(
             child: FractionallySizedBox(
               alignment: Alignment.topCenter,
@@ -51,7 +50,6 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
           ),
 
-          // Foto + identitas
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -92,6 +90,6 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
         ],
       ),
-    ); // ini nutup Scaffold
+    );
   }
-} // ini nutup class _ProfilePageState dan ProfilePage
+}

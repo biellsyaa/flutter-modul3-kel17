@@ -55,7 +55,6 @@ class Country {
     );
   }
 
-  // equality by name (or replace with unique id if ada)
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||

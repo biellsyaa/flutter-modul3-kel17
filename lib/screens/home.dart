@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _onToggleFavorite(Country country) {
-    widget.onToggleFavorite(country); // delegasi ke parent (NavigationPage)
+    widget.onToggleFavorite(country);
   }
 
   @override
@@ -82,7 +82,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Countries'),
         actions: [
-          // tombol sorting
           IconButton(
             icon: Icon(
               _sortAscending ? Icons.arrow_downward : Icons.arrow_upward,
