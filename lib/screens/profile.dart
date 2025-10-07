@@ -12,7 +12,7 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   final List<Map<String, String>> teamMembers = [
-    {'Nama': 'Sanggul Rotua Pakpahan', 'NIM': '21120122120018'},
+    {'Nama': 'Putri Bilqis Nasywa A', 'NIM': '21120123140144'},
   ];
 
   @override
@@ -62,7 +62,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                        'https://avatars.githubusercontent.com/SanggulRotuaPakpahan',
+                        'https://avatars.githubusercontent.com/biellsyaa',
                       ),
                     ),
                   ),
